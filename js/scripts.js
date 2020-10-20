@@ -4,9 +4,16 @@
     $("#walrus-hidden").toggle();
   });
 });
-*/$(document).ready(function() {
-  $(".clickable").click(function() {
-    $("#walrus-showing").slideToggle();
-    $("#walrus-hidden").slideToggle();
+*/
+$(document).ready(function () {
+  $(".clickable").click(function () {
+    $("#walrus-showing").fadeToggle();
+    $("#walrus-hidden").fadeToggle();
+  });
+});
+$(document).ready(function () {
+  $(".clickable-text").click(function () {
+    $("#text-showing").slideToggle();
+    $("#text-hidden").slideToggle();
   });
 });
